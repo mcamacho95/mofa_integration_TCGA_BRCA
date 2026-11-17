@@ -47,3 +47,29 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Python / Reticulate / MOFA+ Backend
+mofa_final_env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Raw & Preprocessed Genomic Data
+GDCdata/
+MANIFEST.txt
+data/*.rds
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.xml
+data/*.maf
+data/*.gz
+
+# Trained MOFA+ Models
+results/models/*.hdf5
+*.hdf5
+
+# OS Files
+.DS_Store
+Thumbs.db
